@@ -1,0 +1,4 @@
+1. ShadowMapShader 및 Material 생성
+
+2. CLight3D 가 보유한 광원전용 카메라 정보 갱신
+   - Transform 정보 갱신 및 Camera 컴포넌트의 행렬 계산 하도록 함

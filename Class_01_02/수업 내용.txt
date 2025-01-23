@@ -1,0 +1,6 @@
+1. RaycastingCS 스레드 동기화 처리
+
+2. LandScape 에서 HeightMap 적용 시 반대편 지형 높이에 영향이 가던 문제 해결
+  - Sampler Clamp 모드 추가
+
+3. 선택한 브러쉬의 모양이 지형에 렌더링되도록 시각효과 추가

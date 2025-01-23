@@ -1,0 +1,137 @@
+TaskMgr
+  - 프레임 동기화
+  - Object Spawn, Object Delete, 
+  - Change Level
+
+Collider
+  - Active, Deactive -> CollisionMgr
+
+StructuredBuffer
+  - 구조화버퍼 설계
+
+Light2D Component
+
+Shader Domain
+ - Canera Component -> GameObject Sorting by ShaderDomain
+
+RenderComponent
+  - Dynamic Material
+  - TimeMap Component
+  - ParticleSystem Component
+    - Compute Shader( GPGPU )
+
+PostProcess
+ - Distortion Effect, Camera Filter Effect
+
+
+Code 리펙토링
+ - 복사 생성자
+ - Clone 인터페이스
+ - Asset, Prefab
+
+
+Script 분리
+
+
+EditorObjectMgr
+
+
+ImGui, Editor 시각화
+
+
+Clone Interface
+  - Copy Construction
+
+Asset
+  - Material, Save / Load  
+  - Prefab, Save / Load
+     - GameObject Save / Load
+       - Script 정보 Save / Load
+  - Level Save / Load
+  - Sound -> FMOD Library
+ 
+CollisionMgr
+  - Level 상태에 따른 충돌판정 계산
+
+
+
+ImGui
+  - ComopnentUI
+     - ScriptUI
+     - ParticleSystemUI
+     - Animator2DUI
+     - TileMapUI
+  - AssetUI
+     - MaterialUI
+  - TreeUI 제작
+     - Drag & Drop 
+
+Level Save/Load
+
+Content 폴더에 배치된 Asset을 자동 로딩, 동기화( 폴더 감시 )
+
+
+
+코드 리뷰
+- Sound -> FMOD Library
+- FontEngine Library
+
+컴포넌트 UI 2개 제작
+- Animator2DUI
+- TileMapUI
+
+
+1. 포트폴리오 게임 선정
+
+2. 간단한 계획서 작성
+
+3. 포폴 일주일 전부터 Asset 구하기 마무리 하기
+
+
+포트폴리오 시작 - 24 / 05 / 27
+포트폴리오 발표 - 24 / 06 / 24
+
+
+
+
+// 3D 
+1. CubeMesh, SphereMesh
+
+2. DebugShape
+  - SphereType
+  - CubeType
+
+3. Light3D
+  - Light3D Component
+  - Diffuse, Ambient, Specular, Normal Mapping
+
+4. SkyBox Component
+
+
+5. Deferred Rendering
+  - MRT( Muti Render Target )
+  - Deferred Lighting, Forward Lighting
+
+6. Decal Component
+
+
+7. Frustum Culling
+  
+
+8. Shadow
+
+
+9. FBXLoading
+
+
+10. LandScape
+  - Tessellation
+  - Tesselation LOD( Level Of Detail )
+
+11. 3D Animation
+
+
+12. Instancing
+
+
+

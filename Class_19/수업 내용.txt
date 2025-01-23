@@ -1,0 +1,4 @@
+1. FBX 를 Engine 에셋으로 변환 (CMesh, CMaterial, CMeshData)
+  - 변환된 각각의 에셋을 파일로 저장, 불러오기 기능 추가
+  - 한번 로딩된 FBX 는 MeshData 및 Mesh, Material 로 변환되어서 Content 에 저장됨
+  - 이후에는 자체 에셋파일을 로딩해서 FBX 파일을 로딩한 것돠 동일한게 동작하도록 함

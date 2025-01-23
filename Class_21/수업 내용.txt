@@ -1,0 +1,2 @@
+1. Offset 행렬 네이밍 변경
+  - Inverse 로 변경

@@ -1,0 +1,8 @@
+1. FBXLoader 추가
+
+2. MeshData 에셋 추가
+
+3. Mesh 및 RenderComponent 구조 변경
+  - 하나의 버텍스버퍼에 다수의 인덱스버퍼(부위, 재질에 대응) 구조로 변경
+
+4. 관련 에셋 추가
